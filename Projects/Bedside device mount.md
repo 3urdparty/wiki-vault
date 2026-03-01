@@ -1,0 +1,1 @@
+Bedside device mount that houses mag-safe chargers for iPhone, Airpods and Watch, as well as wallet and keys.

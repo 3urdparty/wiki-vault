@@ -1,0 +1,1 @@
+![[Linear Algebra 2026-01-31 12.27.03.excalidraw]]

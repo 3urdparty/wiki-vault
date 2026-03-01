@@ -1,0 +1,1 @@
+![[Handheld device.excalidraw]]

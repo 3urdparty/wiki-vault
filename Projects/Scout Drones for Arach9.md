@@ -1,0 +1,1 @@
+Powered by supercapacitors, controlled via RF
