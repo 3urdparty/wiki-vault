@@ -1,0 +1,2 @@
+
+![[calibration-cameramodel-coords.png]]

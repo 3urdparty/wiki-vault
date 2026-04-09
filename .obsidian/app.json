@@ -1,5 +1,7 @@
 {
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "openBehavior": "daily"
+  "openBehavior": "file:Home Page",
+  "newFileLocation": "current",
+  "attachmentFolderPath": "Attachments/Images"
 }

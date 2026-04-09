@@ -1,0 +1,18 @@
+filters:
+  and:
+    - file.inFolder("Books")
+    - file.name != "Books"
+    - file.ext == "md"
+properties:
+  note.tags:
+    displayName: Tags
+views:
+  - type: cards
+    name: Covers
+    order:
+      - file.name
+      - Author
+    sort:
+      - property: image
+        direction: ASC
+    image: note.image

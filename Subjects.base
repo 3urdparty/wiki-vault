@@ -1,0 +1,7 @@
+filters:
+  and:
+    - type == "Subject"
+views:
+  - type: cards
+    name: Cards
+    image: note.image

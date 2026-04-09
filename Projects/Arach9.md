@@ -4,9 +4,11 @@ status: Ongoing
 ---
 ![[Pasted image 20260118110024.png]]
 ![[Hexapod 2026-01-13 09.22.37.excalidraw]]
+![[Pasted image 20260122100341.png]]
 
-
+![[Arach9 2026-03-04 10.20.57.excalidraw]]
 ## Controller Board
+![[Pasted image 20260320072152.png]]
 The Hex9 controller board will be a PCB that contains all of the IMU sensors as well as the motor drivers. The power for the motors and the MCU will be routed separately on the board. I will be using the STM32F401RE Chip, it will need:
 - a 3.3 V regulator: buck converter if powering from 7–24 V or have high total current, LDO if input is already near 3.3–5 V and current is modest
 - decoupling capacitors: 0.1 µF at every VDD pin, 1–4.7 µF bulk near the MCU
@@ -182,15 +184,6 @@ Controller Circuit Diagram
 ![[Hexapod 2026-01-24 23.48.25.excalidraw]]
 
 ![[Hexapod 2026-01-25 10.30.21.excalidraw]]
+![[Arach9 2026-04-02 08.39.15.excalidraw]]
 
 
-**Design**
-- **Power Rail Filtering:** The Nucleo uses an extensive array of **100nF decoupling capacitors** (one for every VDD pin) plus a single **4.7µF bulk capacitor**.
-    
-- **VCAP Pin:** For the F401RE, **Pin 31 (VCAP_1)** must be connected to a **2.2µF capacitor** tied to GND. This is for the internal voltage regulator; without it, the MCU will not start.
-    
-- **Clocking (HSE):** The Nucleo connects an 8MHz clock from the ST-LINK bypass or a crystal to **PH0 and PH1**.
-    
-- **Reset (NRST):** The reset line (Pin 7) includes a **100nF capacitor** to GND and a push button, with a pull-up provided internally by the MCU or an external **10kΩ resistor**.
-    
-- **SWD Interface:** For programming your custom board, you need a header connecting to **PA13 (SWDIO)**, **PA14 (SWCLK)**, **NRST**, and **GND**.

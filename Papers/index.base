@@ -1,0 +1,19 @@
+filters:
+  and:
+    - file.folder == "Papers"
+    - file.ext != "base"
+    - type == "Paper"
+views:
+  - type: table
+    name: All
+    groupBy:
+      property: status
+      direction: ASC
+    order:
+      - file.name
+      - status
+      - url
+      - tags
+    sort:
+      - property: status
+        direction: ASC

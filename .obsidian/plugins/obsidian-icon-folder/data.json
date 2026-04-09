@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiCalculator",
-      "LiExcalidrawIcon",
-      "LiFileImage",
-      "LiCalendarRange",
-      "LiPaperclip"
+      "LiBookCopy",
+      "LiScroll",
+      "LiHome",
+      "LiWeight",
+      "LiPencilLine"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -40,13 +40,21 @@
   "Computer Science": "LiMicrochip",
   "Posts": "LiNewspaper",
   "index.md": "LiHome",
-  "Books": "LiBook",
   "Electrical Engineering": "LiCircuitBoard",
   "Mechanical Engineering": "LiWrench",
   "Projects": "LiArchive",
   "Attachments": "LiPaperclip",
   "Daily Notes": "LiCalendarRange",
   "Attachments/Images": "LiFileImage",
-  "Attachments/Excalidraw": "LiExcalidrawIcon",
-  "Mathematics": "LiCalculator"
+  "Mathematics": "LiCalculator",
+  "History": "LiScroll",
+  "History/People": "LiUsers2",
+  "History/Events": "LiCalendarFold",
+  "Books": "LiBook",
+  "Papers": "LiNewspaper",
+  "Poetry": "LiPenTool",
+  "Attachments/Drawings": "LiPencilLine",
+  "Physics": "LiWeight",
+  "Home Page.md": "LiHome",
+  "Subjects.base": "LiBookCopy"
 }

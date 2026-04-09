@@ -1,8 +1,6 @@
 [
   "obsidian-excalidraw-plugin",
   "obsidian-icon-folder",
-  "obsidian-kanban",
   "calendar",
-  "folder-note-plugin",
-  "heatmap-calendar"
+  "folder-note-plugin"
 ]
